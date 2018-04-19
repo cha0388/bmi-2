@@ -1,0 +1,14 @@
+﻿<Window x:Class="git.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:git"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Horizontal"      >
+        <TextBlock>身高:</TextBlock>
+        <TextBox></TextBox>
+        <Button Background="Bisque" Foreground="DarkCyan" Padding="10 20 30 40" Margin="10 20 30 40" Click="Button_Click">hi</Button>
+    </StackPanel>
+</Window>
